@@ -1,0 +1,137 @@
+@media screen {
+
+.service-container {
+    gap: 20px;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-title {
+    gap: 10px;
+    width: 200px;
+    display: flex;
+    height: 100px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.service-title h1 {
+    font-size: 1.4rem;
+
+}
+
+.service-title p {
+    font-size: .7rem;
+}
+
+.service-wrapper {
+    gap: 20px;
+    width: 200px;
+    display: flex;
+    height: 250px;
+    padding: 0 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--secondary-color-l);
+}
+.supply, .business, .transport {
+    height: 50px;
+    width: 50px;
+    fill: var(--secondary-color-l);
+}
+
+
+.service-wrapper:hover  {
+    background-color:var(--secondary-color-l);
+    border: none;
+}
+
+.service-info h1 {
+    font-size: .7rem;
+}
+
+.service-wrapper:hover .service-info h1 {
+    color: var(--primary-color);
+}
+
+.service-wrapper:hover .service-info p {
+    color: var(--primary-color);
+}
+
+.service-info {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-wrapper:hover .business { 
+    fill: var(--primary-color);
+}
+
+.service-wrapper:hover .transport {
+    fill: var(--primary-color);
+}
+
+.service-wrapper:hover .supply {
+    fill: var(--secondary-color-l);
+}
+
+}
+
+ 
+/* ipad/tablet */ 
+@media only screen and (min-width:48.0em){
+
+   
+
+
+}
+
+
+@media only screen and (min-width:49.0em) { 
+
+    
+.service-container {
+    height: 100vh;
+    flex-direction: row;
+}
+
+.service-title {
+    height: 350px;
+    text-align: start;
+}
+
+
+.service-wrapper {
+    width: 250px;
+    height: 350px;
+}
+
+
+}
+
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+   
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+   
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+   
+}

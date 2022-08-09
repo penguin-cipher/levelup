@@ -1,0 +1,188 @@
+@media screen { 
+
+    .contact-container {
+        gap: 20px;
+        display: flex;
+        height: fit-content;
+        padding: 10px 0;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--secondary-color-d);
+        
+    }
+    
+    .contact-headline {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-headline h1 {
+        display: none;
+    }
+    
+    .contact-img {
+        width: 200px;
+    }
+    
+    .line {
+        width: 90%;
+        color: var(--primary-color);
+    }
+    
+    .contact-body {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .contact-body h1 {
+        font-size: 1.2rem;
+        margin: 30px 0;
+        color: var(--secondary-color-l);
+    }
+    
+    .contact-body h4 {
+        font-weight: 100;
+        font-size: .8rem;
+        margin-top: 10px;
+        color: var(--primary-color-l);
+    }
+    
+    .twitter, .whatsapp , .instagram {
+        height: 20px;
+        width: 20px;
+        fill: var(--secondary-color-l);
+    }
+    
+    .social-container {
+
+        gap: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .social-links {
+        gap:10px;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+    }
+    
+    .social-links h5 {
+        font-size: .7rem;
+        color: var(--primary-color-l);
+    }
+    
+    .footer h4 {
+        font-size: .8rem;
+        color: var(--secondary-color-l);
+    }
+    
+}
+
+
+
+
+ /* ipad/tablet */
+ @media only screen and (min-width:48.0em){
+
+}
+
+@media only screen and (min-width:49.0em) { 
+    .contact-container {
+        height: 100vh;    
+    }
+    
+    .contact-headline {
+        justify-content: space-between;
+    }
+    
+    .contact-headline h1 {
+        display: flex;
+        font-size: 1.8rem;
+        width: 50%;
+        color: var(--primary-color-l);
+    }
+
+    .contact-img {
+        width: 400px;
+    }
+    
+
+    .contact-body {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        text-align: start;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .contact-body h1 {
+        font-size: 1.2rem;
+        margin: 30px 0;
+        color: var(--secondary-color-l);
+    }
+    
+    .contact-body h4 {
+        font-weight: 100;
+        font-size: .8rem;
+        margin-top: 10px;
+        color: var(--primary-color-l);
+    }
+    
+    .twitter, .whatsapp , .instagram {
+        height: 20px;
+        width: 20px;
+        fill: var(--secondary-color-l);
+    }
+    
+    .social-container {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .social-links {
+        gap:10px;
+        display: flex;
+        width: fit-content;
+        align-items: center;
+    }
+    
+    .social-links h5 {
+        font-size: .7rem;
+        color: var(--primary-color-l);
+    }
+    
+    .footer h4 {
+        font-size: .8rem;
+        color: var(--secondary-color-l);
+    }
+    
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+    
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+    
+}

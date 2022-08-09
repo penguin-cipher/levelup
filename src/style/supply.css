@@ -1,0 +1,107 @@
+@media screen {
+    
+ .supply-container {
+    gap: 20px;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    flex-direction: column;
+    background-color: var(--secondary-color-l);
+}
+
+.supply-info {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.supply-info h1 {
+    font-size: 2rem;
+}
+
+.supply-info p {
+    font-size: .8rem;
+}
+
+.card-container {
+     display: flex;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.card-wrapper {
+    gap:20px;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    border-radius:12px;   
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+.card-wrapper h4 {
+    font-weight: 100;
+}
+
+.card-image {
+    height: 70px;
+}  
+
+}
+
+ 
+/* ipad/tablet */ 
+@media only screen and (min-width:48.0em){
+
+
+}
+
+
+@media only screen and (min-width:49.0em) { 
+
+.card-container {   
+    width: 1000px;
+    padding: 10px 0;
+    overflow: visible;
+    overflow-y: hidden; 
+ 
+}
+
+.card-wrapper {
+    gap:20px;
+    width: 260px;
+    height: 160px;
+} 
+
+}
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+   
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+   
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+   
+}

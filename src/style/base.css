@@ -1,0 +1,88 @@
+@media screen {
+    
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+     /* color-scheme  */
+     --primary-color: #FFFFFF;
+     --primary-color-d: #F2F2F2;
+     --primary-color-l: #b0b7b9;
+     --secondary-color-d: #082C31;
+     --secondary-color-l: #00AB86;
+     --secondary-color-t: #00c1c1;
+     --secondary-color: #0A252C;
+
+}
+
+body {
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--primary-color-d);
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-color-d);  
+ }
+
+h1 , h2, h3, h4, h5, h6, p, label {
+    font-size: .6rem;
+    color: var(--secondary-color);
+}
+
+.btn {
+    background-color: var(--secondary-color-l);
+    color: var(--primary-color);
+    text-transform: capitalize;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+ .app {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: scroll;
+ }
+
+}
+
+ /* ipad/tablet */
+@media only screen and (min-width:48.0em){
+
+    
+
+
+}
+
+@media only screen and (min-width:49.0em) { 
+
+}
+
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+    
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+    
+}

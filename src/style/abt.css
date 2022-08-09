@@ -1,0 +1,136 @@
+@media screen { 
+       
+.abt-us-container {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.abt-us-wrapper {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color-d);       
+}
+
+.abt-img-gif {
+    height: 210px;
+}
+
+.abt-us-info {
+    gap: 30px;
+    display: flex;
+    margin: 0 20px;
+    margin-right: 50px;
+    width: fit-content;
+    flex-direction: column;
+
+}
+
+.abt-us-info h1 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.abt-us-info p {
+    font-size: .7rem;
+}
+
+.abt-proof {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.proof-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-color-l);
+
+}
+
+.abt-proof h2 {
+    font-size: .8rem;
+}
+
+.abt-proof p {
+    font-size: .7rem;
+}
+
+.certified, .approved {
+    height: 30px;
+    width: 30px;
+}
+
+  
+}
+
+/* ipad/tablet */ 
+@media only screen and (min-width:48.0em){
+
+   
+
+
+}
+
+@media only screen and (min-width:49.0em) { 
+
+.abt-us-container {
+    height: 100vh;
+    flex-direction: row;
+}
+
+.abt-us-wrapper {
+    height: 100%;
+    width: 500px;
+    background-color: var(--secondary-color-t);
+}
+
+.abt-img-gif {
+    height: 500px;
+    width: 600px;
+}
+
+.abt-us-info {
+    width: 400px;
+}
+
+.abt-us-info h1 {
+    text-align: start;
+    font-size: 2rem;
+}
+
+.abt-us-info p {
+    font-size: 1rem;
+}
+
+ }
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+   
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+   
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+   
+}

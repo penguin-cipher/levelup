@@ -1,0 +1,115 @@
+@media screen {
+    .home-container {
+        height: 100vh;
+        padding: 0 20px;
+        overflow: hidden;
+        background-color:var(--secondary-color);
+        /* background: linear-gradient(90deg, rgba(10,37,44,1) 40%,rgba(36,79,88,1)100%); */
+    
+    }
+    
+    .home-nav {
+        margin: 80px 0;
+    }
+    
+    .hero-container {
+        display: flex;
+        align-content: center;
+       
+    }
+    
+    .hero-img-container {
+        display: none;
+    }
+    
+    .hero-info {
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    
+    .hero-info  h1 {  
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: var(--primary-color-d);
+    }
+    
+    .hero-btn {
+        font-size: .9rem;
+        width: fit-content;
+        padding: 10px 30px;
+       
+    }
+}
+
+
+ /* ipad/tablet */
+ @media only screen and (min-width:48.0em){
+
+    
+
+
+}
+
+@media only screen and (min-width:49.0em) { 
+
+    .home-container {
+        height: 80vh;
+        padding: 0 40px;
+    }
+    
+    .home-nav {
+        margin: 50px 0;
+    }
+    
+    
+    .hero-img {
+    width: 526px;
+    }
+    
+    .hero-img-container {
+        display: flex;
+    }
+    
+    .hero-info {
+        gap: 0;
+        justify-content: space-around;
+       
+    }
+    
+    .hero-btn {
+        padding: 7px 30px;
+       
+    }
+    
+    .hero-info h1 {
+    
+        font-size: 2.3rem;
+    }
+    
+}
+
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+    
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+    
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+    
+}
