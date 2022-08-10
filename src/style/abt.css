@@ -77,9 +77,7 @@
 /* ipad/tablet */ 
 @media only screen and (min-width:48.0em){
 
-   
-
-
+ 
 }
 
 @media only screen and (min-width:49.0em) { 
@@ -117,6 +115,11 @@
 
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .abt-us-container {
+        height: 70vh;
+        flex-direction: row;
+    }    
 
 
    

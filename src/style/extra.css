@@ -136,7 +136,9 @@
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
-
+    .extra-container {
+        height: 50vh;
+    }
    
 }
 

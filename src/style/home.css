@@ -111,7 +111,10 @@
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
-
+    .home-container {
+        height: 60vh;
+        padding: 0 40px;
+    }
     
 }
 
