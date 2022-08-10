@@ -29,7 +29,7 @@ import Supply from "@/components/oursupply.vue";
                 id="p-name"
                 class="p-name p-input"
                 v-bind="productName"
-                placeholder="company name"
+                placeholder="Company name"
                 required
               />
             </div>
@@ -39,7 +39,7 @@ import Supply from "@/components/oursupply.vue";
                 id="p-email"
                 class="p-email p-input"
                 v-bind="productEmail"
-                placeholder="company email"
+                placeholder="Company email"
                 required
               />
             </div>
@@ -49,7 +49,7 @@ import Supply from "@/components/oursupply.vue";
                 id="p-name"
                 class="p-subject p-input"
                 v-bind="productSubject"
-                placeholder="supply product"
+                placeholder="Supply product"
                 required
               />
             </div>
@@ -60,7 +60,7 @@ import Supply from "@/components/oursupply.vue";
                 cols="30"
                 rows="8"
                 class="p-area p-input"
-                placeholder="a summary of what the computer does"
+                placeholder="A summary of what the computer does"
                 required
               ></textarea>
             </div>

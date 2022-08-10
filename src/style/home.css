@@ -1,13 +1,25 @@
 @media screen {
     .home-container {
+        gap: 10px;
+        display: flex;
         height: 100vh;
         padding: 0 20px;
         overflow: hidden;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         background-color:var(--secondary-color);
         /* background: linear-gradient(90deg, rgba(10,37,44,1) 40%,rgba(36,79,88,1)100%); */
     
     }
     
+    
+    .home-nav {
+        display: flex;
+        width: 100%;
+    
+    }
+
     .home-nav {
         margin: 80px 0;
     }
@@ -55,6 +67,8 @@
 }
 
 @media only screen and (min-width:49.0em) { 
+
+    
 
     .home-container {
         height: 80vh;

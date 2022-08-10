@@ -19,12 +19,12 @@
 }
 
 .service-title h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
 }
 
 .service-title p {
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 .service-wrapper {
@@ -51,7 +51,7 @@
 }
 
 .service-info h1 {
-    font-size: .7rem;
+    font-size: 1rem;
 }
 
 .service-wrapper:hover .service-info h1 {

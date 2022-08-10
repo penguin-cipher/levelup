@@ -2,7 +2,7 @@
 
     
 .p-form {
-    width: auto;
+    width: 300px;
     display: flex;
     border-radius: 12px;
     flex-direction: column;
@@ -13,14 +13,14 @@
 .p-form-d {
     width: 100%;
     display: flex;
-    margin-bottom: 20px;
     align-items: center;
+    margin-bottom: 20px;
     justify-content: center;
     flex-direction: column;
 }
 
 .p-form-d h3 {
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .p-bar {
@@ -46,20 +46,22 @@
 }
 
 .p-label {
+
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .p-input { 
     outline: none;
-    padding: 4px 1px;
+    padding: 8px 2px;
     border-radius:2px;
     border-radius: 6px;
     border: 1px solid var(--primary-color-l);
 }
 
 .p-input::placeholder {
-    font-size: .6rem;
+    font-size: .7rem;
+    font-weight: 100;
     color: var(--primary-color-l);
 }
 
@@ -93,10 +95,20 @@
 
 @media only screen and (min-width:49.0em) { 
 
+.p-label {
+    font-size: .7rem;
+    margin-bottom: 8px;
+}
+    
         
 .p-form {
     width: 300px;
 }
+
+.p-input::placeholder {
+    font-size: .6rem;
+}
+
 
 }
 

@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 @media screen {
     
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     box-sizing: border-box;
@@ -17,7 +18,7 @@
 }
 
 body {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 100;
     color: var(--primary-color-d);
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +26,7 @@ body {
  }
 
 h1 , h2, h3, h4, h5, h6, p, label {
-    font-size: .6rem;
+    font-size: .8rem;
     color: var(--secondary-color);
 }
 
@@ -62,6 +63,13 @@ h1 , h2, h3, h4, h5, h6, p, label {
 }
 
 @media only screen and (min-width:49.0em) { 
+    body {
+        font-size: .8rem;
+     }
+
+     h1 , h2, h3, h4, h5, h6, p, label {
+        font-size: .6rem;
+    }
 
 }
 

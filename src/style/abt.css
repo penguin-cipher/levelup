@@ -18,7 +18,7 @@
 }
 
 .abt-img-gif {
-    height: 210px;
+    height: 280px;
 }
 
 .abt-us-info {
@@ -33,11 +33,11 @@
 
 .abt-us-info h1 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .abt-us-info p {
-    font-size: .7rem;
+    font-size: .8rem;
 }
 
 .abt-proof {

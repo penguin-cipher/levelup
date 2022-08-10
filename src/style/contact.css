@@ -23,7 +23,7 @@
     }
     
     .contact-img {
-        width: 200px;
+        width: 270px;
     }
     
     .line {
@@ -35,7 +35,6 @@
         width: 90%;
         height: 100%;
         display: flex;
-        text-align: center;
         flex-direction: column;
         justify-content: space-between;
     }
