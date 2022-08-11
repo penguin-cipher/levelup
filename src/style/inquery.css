@@ -70,13 +70,13 @@
 }
 
 .p-input::placeholder {
-    font-size: .7rem;
+    font-size: .9rem;
     font-weight: 100;
     color: var(--primary-color-l);
 }
 
 .p-input[type="text"], .p-input[type="email"], .p-area {
-    font-size: .7rem;
+    font-size: .9rem;
     font-weight: 100;
     padding-left: 12px;
     color: var(--secondary-color);
@@ -104,6 +104,7 @@
 }
 
 @media only screen and (min-width:49.0em) { 
+    
 
 .p-label {
     font-size: .7rem;
@@ -117,6 +118,14 @@
 
 .p-input::placeholder {
     font-size: .6rem;
+}
+
+
+.p-input[type="text"], .p-input[type="email"], .p-area {
+    font-size: .7rem;
+    font-weight: 100;
+    padding-left: 12px;
+    color: var(--secondary-color);
 }
 
 
