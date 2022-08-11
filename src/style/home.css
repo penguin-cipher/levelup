@@ -13,6 +13,10 @@
     
     }
 
+    .break {
+        display: none;
+    }
+
 
     @media (min-width: 375px) and (max-width: 667px) { 
    
@@ -108,6 +112,11 @@
     .hero-btn {
         padding: 7px 30px;
        
+    }
+
+    
+    .break {
+        display: flex;
     }
     
     .hero-info h1 {

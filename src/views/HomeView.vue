@@ -9,7 +9,7 @@ import Nav from "@/components/navComponet.vue";
     <div class="hero-container">
       <div class="hero-info">
         <h1>
-          your trusted ict,electronics and general <br />
+          your trusted ict,electronics and general <br class="break" />
           supplies
         </h1>
         <a href="#catalog"><div class="hero-btn btn">explore catalog</div></a>
