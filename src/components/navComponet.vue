@@ -1,7 +1,3 @@
-<script setup>
-import { RouterLink } from "vue-router";
-</script>
-
 <template>
   <div class="bar">
     <div class="logo">
@@ -46,21 +42,13 @@ import { RouterLink } from "vue-router";
         />
       </svg>
     </div>
-    <div class="menu-container">
-      <svg class="menu" viewBox="0 0 24 24">
-        <path
-          fill="currentColor"
-          d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"
-        />
-      </svg>
-    </div>
     <div class="nav-bar">
-      <RouterLink to="/" class="nav-link"> home </RouterLink>
-      <RouterLink to="/About" class="nav-link"> about </RouterLink>
-      <RouterLink to="/Services" class="nav-link"> services </RouterLink>
-      <RouterLink to="/Contact" class="nav-link"> contact us </RouterLink>
+      <a href="#home" class="nav-link"> home </a>
+      <a href="#about" class="nav-link"> about </a>
+      <a href="#services" class="nav-link"> services </a>
+      <a href="#contact" class="nav-link"> contact us </a>
     </div>
-    <div class="nav-btn btn">explore catalog</div>
+    <a href="#portal" class="nav-btn btn">Work with us</a>
   </div>
 </template>
 <style>

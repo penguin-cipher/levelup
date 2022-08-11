@@ -10,6 +10,16 @@
     background-color: var(--primary-color);
 }
 
+
+ 
+@media (min-width: 320px) and (max-width: 568px) { 
+    
+    .p-form {
+        margin-top: 20px;
+    }
+ 
+ }
+
 .p-form-d {
     width: 100%;
     display: flex;

@@ -2,7 +2,7 @@
 import Supply from "@/components/oursupply.vue";
 </script>
 <template>
-  <div class="extra-container">
+  <div class="extra-container" id="portal">
     <div class="extra-extra"></div>
     <div class="client-portal">
       <div class="portal-panel">
@@ -77,7 +77,7 @@ import Supply from "@/components/oursupply.vue";
       </div>
     </div>
   </div>
-  <Supply />
+  <Supply id="catalog" />
 </template>
 <style>
 @import "../style/extra.css";

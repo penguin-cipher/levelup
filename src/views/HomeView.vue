@@ -2,7 +2,7 @@
 import Nav from "@/components/navComponet.vue";
 </script>
 <template>
-  <div class="home-container home">
+  <div class="home-container" id="home">
     <div class="home-nav">
       <Nav />
     </div>
@@ -12,7 +12,7 @@ import Nav from "@/components/navComponet.vue";
           your trusted ict,electronics and general <br />
           supplies
         </h1>
-        <div class="hero-btn btn">explore catalog</div>
+        <a href="#catalog"><div class="hero-btn btn">explore catalog</div></a>
       </div>
       <div class="hero-img-container">
         <svg

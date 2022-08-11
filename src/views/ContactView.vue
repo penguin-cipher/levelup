@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-container">
+  <div class="contact-container" id="contact">
     <div class="contact-headline">
       <h1>A trusted supplier ensures succesful business</h1>
       <div>

@@ -1,20 +1,27 @@
 @media screen {
-
     .extra-container {
-    height: 130vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: var(--secondary-color-l);
 }
 
-@media (min:414px ) and (max:736px) {
 
+@media (min-width: 375px) and (max-width: 667px) { 
+    
     .extra-container {
         height: 100vh;
-        border: 2px solid red;
     }
-  }
+ }
+
+ @media (min-width: 320px) and (max-width: 480px) { 
+    
+    .extra-container {
+        height: 140vh;
+    }
+ }
+
 
 .extra-extra {
     width: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <div class="abt-us-container">
+  <div class="abt-us-container" id="about">
     <div class="abt-us-wrapper">
       <div class="abt-img">
         <img src="../assets/abt-us.gif" alt="abt-img" class="abt-img-gif" />

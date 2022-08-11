@@ -106,10 +106,16 @@
 }
 
 
+
+.service-info p {
+    font-size: .8rem;
+}
+
 .service-wrapper {
     width: 250px;
     height: 350px;
 }
+
 
 
 }

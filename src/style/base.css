@@ -19,7 +19,7 @@
 
 body {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     color: var(--primary-color-d);
     font-family: 'Open Sans', sans-serif;
     background-color: var(--primary-color-d);  
@@ -28,6 +28,10 @@ body {
 h1 , h2, h3, h4, h5, h6, p, label {
     font-size: .8rem;
     color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
 }
 
 .btn {

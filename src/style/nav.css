@@ -6,9 +6,19 @@
         padding: 10px 8px;
         align-items: center;
         justify-content: space-between;
-        background-color: var(--secondary-color-d);
+   
         
     }
+
+    @media (min-width: 320px) and (max-width: 480px) { 
+   
+    .bar {
+            padding: 0 8px;
+            
+    }
+
+    }
+    
     .logo {
 
          cursor: pointer;

@@ -2,7 +2,7 @@
 import Extra from "@/components/service-extra.vue";
 </script>
 <template>
-  <div class="service-container">
+  <div class="service-container" id="services">
     <div class="service-title">
       <h1>Our services include</h1>
       <p>We are here for you</p>

@@ -11,6 +11,8 @@
     background-color: var(--secondary-color-l);
 }
 
+
+
 .supply-info {
     gap: 10px;
     display: flex;
@@ -50,11 +52,12 @@
 }
 
 .card-wrapper h4 {
+    font-size: .9rem;
     font-weight: 100;
 }
 
 .card-image {
-    height: 70px;
+    height: 75px;
 }  
 
 }
@@ -70,7 +73,7 @@
 @media only screen and (min-width:49.0em) { 
 
 .card-container {   
-    width: 1000px;
+    width: 800px;
     padding: 10px 0;
     overflow: visible;
     overflow-y: hidden; 
@@ -82,6 +85,12 @@
     width: 260px;
     height: 160px;
 } 
+
+
+.card-wrapper h4 {
+    font-size: .8rem;
+    font-weight: 100;
+}
 
 }
 
@@ -98,6 +107,24 @@
 /* large screens : Desktop and 4k screens */
 
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
+    .supply-container {
+        height: 110vh;
+
+    }
+
+    .card-container {   
+    width: 1000px;
+    padding: 10px 0;
+    overflow: visible;
+    overflow-y: hidden; 
+ 
+}
+
+.card-wrapper {
+    gap:20px;
+    width: 260px;
+    height: 160px;
+} 
    
 
 }
@@ -105,5 +132,6 @@
 
 /* 5k screens and above */
 @media only screen and (min-width:91.0em) {
+    
    
 }
