@@ -20,14 +20,14 @@
         <h1>Contact</h1>
         <h4>0721505032</h4>
         <h4>levelupenter@gmail.com</h4>
-        <h4>email@levelupenterpreneurship.com</h4>
+        <h4>email@infolevelupenterpreneurs.com</h4>
         <h4>P.O.Box 56538-00200 Nairobi</h4>
         <h4>Westland Office Park, Waiyaka Way, 2nd Floor</h4>
       </div>
       <div class="details">
         <h1>Social media</h1>
         <div class="social-container">
-          <div class="social-links">
+          <div class="social-links" @click="twitter()">
             <svg
               viewBox="0 0 30 30"
               fill="none"
@@ -41,7 +41,7 @@
 
             <h5>Twitter</h5>
           </div>
-          <div class="social-links">
+          <div class="social-links" @click="whatsapp()">
             <svg
               viewBox="0 0 30 30"
               fill="none"
@@ -55,7 +55,7 @@
 
             <h5>Whatsapp</h5>
           </div>
-          <div class="social-links">
+          <div class="social-links" @click="instagram()">
             <svg
               viewBox="0 0 30 30"
               fill="none"
@@ -78,7 +78,23 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  methods: {
+    twitter() {
+      location.href = "";
+    },
+    instagram() {
+      location.href =
+        "https://www.instagram.com/invites/contact/?i=17e5zmgh4sipv&utm_content=7amo95o";
+    },
+    whatsapp() {
+      location.href =
+        "https://wa.me/254721505032/?text=Hi,iam from yout website level up";
+    },
+  },
+};
+</script>
 
 <style>
 @import "@/style/contact.css";

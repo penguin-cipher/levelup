@@ -18,7 +18,7 @@ import Supply from "@/components/oursupply.vue";
             meet your demands and needs
           </p>
         </div>
-        <form class="p-form">
+        <form class="p-form" @submit.prevent="client()" ref="cForm">
           <div class="p-wrapper">
             <div class="p-form-s">
               <h3>Help us get to know you</h3>
@@ -28,7 +28,7 @@ import Supply from "@/components/oursupply.vue";
                 type="text"
                 id="p-name"
                 class="p-name p-input"
-                v-bind="productName"
+                v-model="companyName"
                 placeholder="Company name"
                 required
               />
@@ -38,7 +38,7 @@ import Supply from "@/components/oursupply.vue";
                 type="email"
                 id="p-email"
                 class="p-email p-input"
-                v-bind="productEmail"
+                v-model="companyEmail"
                 placeholder="Company email"
                 required
               />
@@ -48,7 +48,7 @@ import Supply from "@/components/oursupply.vue";
                 type="text"
                 id="p-name"
                 class="p-subject p-input"
-                v-bind="productSubject"
+                v-model="companySubject"
                 placeholder="Supply product"
                 required
               />
@@ -59,8 +59,9 @@ import Supply from "@/components/oursupply.vue";
                 id="p-msg"
                 cols="30"
                 rows="8"
+                v-model="companyMessage"
                 class="p-area p-input"
-                placeholder="A summary of what the computer does"
+                placeholder="A summary of what the company does"
                 required
               ></textarea>
             </div>
@@ -71,7 +72,7 @@ import Supply from "@/components/oursupply.vue";
                 company policies apply
               </p>
             </div>
-            <button class="p-btn btn">submit</button>
+            <button class="p-btn btn" type="submit">submit</button>
           </div>
         </form>
       </div>
@@ -79,6 +80,41 @@ import Supply from "@/components/oursupply.vue";
   </div>
   <Supply id="catalog" />
 </template>
+<script>
+export default {
+  data() {
+    return {
+      companyTitle: "CLIENT FORM",
+      companyName: "",
+      companyEmail: "",
+      companySubject: "",
+      companyMessage: "",
+    };
+  },
+  methods: {
+    client: function () {
+      let url =
+        "https://wa.me/254721505032?text=" +
+        "*Title*: " +
+        this.companyTitle +
+        "%0a" +
+        "*companyName*: " +
+        this.companyName +
+        "%0a" +
+        "*Email*: " +
+        this.companyEmail +
+        "%0a" +
+        "*Subject*: " +
+        this.companySubject +
+        "%0a" +
+        "*Message*: " +
+        this.companyMessage;
+      window.open(url, "_blank").focus();
+      this.$refs.cForm.reset();
+    },
+  },
+};
+</script>
 <style>
 @import "../style/extra.css";
 </style>
