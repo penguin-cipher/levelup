@@ -56,6 +56,34 @@ a {
     overflow-y: scroll;
  }
 
+ .paymentFailure {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    gap: 10px;
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+    overflow-y: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#00001aff ;
+ }
+
+ .icon-p {
+    width: 12rem;
+    height: 12rem;
+ }
+
+ .p-text h1 {
+    color: #64b4d9;
+    font-weight: 300;
+    font-size: .8rem;
+    text-align: center;
+ }
+
 }
 
  /* ipad/tablet */
