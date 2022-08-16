@@ -73,8 +73,8 @@ a {
  }
 
  .icon-p {
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
  }
 
  .p-text h1 {
@@ -103,10 +103,10 @@ a {
         font-size: .6rem;
     }
 
-    .icon-p {
-        width: 12rem;
-        height: 12rem;
-     }
+     .icon-p {
+    width: 12rem;
+    height: 12rem;
+ }
 
 }
 
