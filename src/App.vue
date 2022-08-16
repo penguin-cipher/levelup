@@ -107,7 +107,7 @@ import Product from "@/components/productIntro.vue";
     </div>
     <div class="p-text">
       <h1>
-        This site has been taken down due payment failures and breach of
+        This site has been taken down due to payment failures and breach of
         contract
       </h1>
     </div>
