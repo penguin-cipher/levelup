@@ -1,5 +1,5 @@
 <script setup>
-import Supply from "@/components/oursupply.vue";
+import Supply from "@/components/ourSupply.vue";
 </script>
 <template>
   <div class="extra-container" id="portal">

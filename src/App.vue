@@ -117,7 +117,7 @@ import Product from "@/components/productIntro.vue";
 export default {
   data() {
     return {
-      payment: false,
+      payment: true,
     };
   },
 };
